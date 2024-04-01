@@ -102,8 +102,7 @@ def calculate_grade():
     else:
         grade = '5'
     grade_label.config(text=f'Твоя оценка: {grade}')
-
-
+    
 def exit_quiz():
     root.destroy()
     sys.exit()
